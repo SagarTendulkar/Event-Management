@@ -41,4 +41,17 @@
   .filter-card button:hover {
     background-color: rgb(9, 140, 16);
   }
+  @media screen and (max-width: 768px) {
+    .date {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
   
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
