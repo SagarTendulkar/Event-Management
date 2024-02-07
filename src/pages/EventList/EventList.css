@@ -9,12 +9,19 @@
   
 }
 .event-list {
-  /* width: 500px; */
   display: flex;
   flex-direction: column;
+  /* display: grid;
+  grid-template-columns: auto auto; */
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-top: 140px;
-  margin-bottom: 60px;
+  margin: 140px 20px 60px;
 }
+/* @media screen and (max-width:650px){
+  .event-list{
+    
+  display: flex;
+  flex-direction: column;
+  }  
+} */
